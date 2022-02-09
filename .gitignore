@@ -43,3 +43,6 @@ yarn.lock
 # serverless
 .serverless
 .webpack
+
+# Terraform
+*.terraform
