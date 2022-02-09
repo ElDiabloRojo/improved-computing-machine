@@ -13,6 +13,9 @@ const serverlessConfiguration: AWS = {
   },
   plugins: ['serverless-webpack'],
   provider: {
+    stackTags: {
+      project: "ICM"
+    },
     name: 'aws',
     runtime: 'nodejs12.x',
     apiGateway: {
