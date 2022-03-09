@@ -44,5 +44,8 @@ yarn.lock
 .serverless
 .webpack
 
-# Terraform
-*.terraform
+# Terraformer
+terraformer/generated/aws/**
+.terraform
+.terraform.lock.hcl
+.infracost
