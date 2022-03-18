@@ -49,3 +49,6 @@ terraformer/generated/aws/**
 .terraform
 .terraform.lock.hcl
 .infracost
+
+# Python 
+.venv
